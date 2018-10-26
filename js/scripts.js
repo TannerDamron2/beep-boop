@@ -7,8 +7,10 @@ var beepBoop = function(userInput){
       results.push("Beep! ")
     } else if (inputString.includes("1")) {
       results.push("Boop! ")
+    } else if (inputString.includes([i] % 3 === 0)) {
+      results.push("I'm sorry, Dave. I'm afraid I can't do that. ")
     } else {
-      alert(false);
+      results.push([i])
     }
   }
   return results
