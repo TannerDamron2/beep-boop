@@ -5,9 +5,9 @@ var beepBoop = function(userInput){
     if (i % 3 === 0 && i != 0) {
       results.push("I'm sorry, Dave. I'm afraid I can't do that. ");
     } else if (inputString.includes("1")) {
-      results.push("Boop!, ");
+      results.push("Boop! ");
     } else if (inputString.includes("0")) {
-      results.push("Beep!, ");
+      results.push("Beep! ");
     } else {
       results.push(i+", ");
     }
@@ -23,5 +23,14 @@ $(document).ready(function(){
     var stringOutput = output.join("");
     $("#result").show();
     $("#result").text(stringOutput);
+  });
+  $("form#formTwo").submit(function(event){
+    event.preventDefault();
+    var userInput = parseInt($("#inputNumber").val());
+    var output = beepBoop(userInput);
+    var reverseArray = output.reverse();
+    var reverseOutput = reverseArray.join("");
+    $("#result").show();
+    $("#result").text(reverseOutput);
   });
 });

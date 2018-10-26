@@ -6,17 +6,21 @@ A webpage that takes the user inputted number and runs it through a loop then re
 
 ## Specifications
 
-#### Behavior: Replaces 0 with the text "beep"
+#### Behavior: Replaces 0 with the text "Beep!"
 * Input: "0"
 * Output: "Beep!"
 
-#### Behavior: Replaces 1 with the text "boop"
+#### Behavior: Replaces 1 with the text "Boop!"
 * Input: "1" "10"
 * Output: "Boop!"
 
 #### Behavior: Replaces any number divisible by 3 with the text "I'm sorry, Dave. I'm afraid I can't do that."
 * Input: "3" "6" "30"
 * Output: "I'm sorry, Dave. I'm afraid I can't do that."
+
+#### Behavior: Leaves other number alone just add comma and space
+* Input "4"
+* Output: "4, "
 
 ### Setup Instructions
 * Clone repository
