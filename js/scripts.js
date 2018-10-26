@@ -23,6 +23,7 @@ $(document).ready(function(){
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
     var outputName = stringOutput.replace(/Dave/g, name)
+    $("#result").hide();
     $("#result").fadeIn(2000);
     $("#result").text(outputName);
     $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -35,6 +36,7 @@ $(document).ready(function(){
     var reverseArray = output.reverse();
     var reverseOutput = reverseArray.join("");
     var reverseOutputName = reverseOutput.replace(/Dave/g, name)
+    $("#result").hide();
     $("#result").fadeIn(2000);
     $("#result").text(reverseOutputName);
     $('html, body').animate({ scrollTop: 0 }, 'slow');
