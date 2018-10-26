@@ -1,19 +1,20 @@
 # Beep-Boop Webpage
-## by Tanner Damron & Leilani Leach
+## by Tanner Damron
 
 ## Description
 A webpage that takes the user inputted number and runs it through a loop then returns a range of numbers from 0 to the user input, while replacing numbers with a 0 with beep, numbers with a 1 with boop, and any number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
 
-### Specifications
-* Behavior: Replaces 0 with the text "beep"
+## Specifications
+
+#### Behavior: Replaces 0 with the text "beep"
 * Input: "0"
 * Output: "beep"
 
-* Behavior: Replaces 1 with the text "boop"
+#### Behavior: Replaces 1 with the text "boop"
 * Input: "1"
 * Output: "boop"
 
-* Behavior: Replaces any number divisible by 3 with the text ""I'm sorry, Dave. I'm afraid I can't do that.""
+#### Behavior: Replaces any number divisible by 3 with the text ""I'm sorry, Dave. I'm afraid I can't do that.""
 * Input: "3" "6" "30"
 * Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
