@@ -26,7 +26,6 @@ $(document).ready(function(){
     $("#result").fadeIn(2000);
     $("#result").text(outputName);
     $('html, body').animate({ scrollTop: 0 }, 'slow');
-
   });
   $("form#formTwo").submit(function(event){
     event.preventDefault();
