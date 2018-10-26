@@ -5,6 +5,8 @@ var beepBoop = function(userInput){
     alert(inputString);
     if (inputString.includes("0")) {
       results.push("Beep! ")
+    } else if (inputString.includes("1")) {
+      results.push("Boop! ")
     } else {
       alert(false);
     }

@@ -8,11 +8,11 @@ A webpage that takes the user inputted number and runs it through a loop then re
 
 #### Behavior: Replaces 0 with the text "beep"
 * Input: "0"
-* Output: "beep"
+* Output: "Beep!"
 
 #### Behavior: Replaces 1 with the text "boop"
 * Input: "1" "10"
-* Output: "boop"
+* Output: "Boop!"
 
 #### Behavior: Replaces any number divisible by 3 with the text ""I'm sorry, Dave. I'm afraid I can't do that.""
 * Input: "3" "6" "30"
