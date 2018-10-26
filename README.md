@@ -11,7 +11,7 @@ A webpage that takes the user inputted number and runs it through a loop then re
 * Output: "beep"
 
 #### Behavior: Replaces 1 with the text "boop"
-* Input: "1"
+* Input: "1" "10"
 * Output: "boop"
 
 #### Behavior: Replaces any number divisible by 3 with the text ""I'm sorry, Dave. I'm afraid I can't do that.""
