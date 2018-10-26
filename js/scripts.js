@@ -2,23 +2,18 @@ var beepBoop = function(userInput){
   var results = [];
   for (var i=0; i <= userInput; i++) {
     var inputString = (i).toString();
-    alert(inputString);
-    if (inputString.includes(i % 3 === 0 && i != 0)) {
+    if (i % 3 === 0 && i != 0) {
       results.push("I'm sorry, Dave. I'm afraid I can't do that. ");
     } else if (inputString.includes("1")) {
-      results.push("Boop! ");
+      results.push("Boop!, ");
     } else if (inputString.includes("0")) {
-      results.push("Beep! ");
+      results.push("Beep!, ");
     } else {
-      results.push(""+ i);
+      results.push(i+", ");
     }
   }
   return results
-  alert(results);
 }
-
-
-
 
 $(document).ready(function(){
   $("form#formOne").submit(function(event){
