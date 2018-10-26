@@ -37,4 +37,7 @@ A webpage that takes the user inputted number and runs it through a loop then re
 * javascript
 * jQuery
 
+### GitHub Pages link
+https://tannerdamron.github.io/beep-boop/
+
 Copyright (c) 2018 Tanner Damron.

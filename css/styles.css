@@ -12,6 +12,12 @@ h1 {
   margin-bottom: 5%;
 }
 
+#labelName {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
 #labelOne {
   display: block;
   margin-left: auto;

@@ -18,19 +18,26 @@ var beepBoop = function(userInput){
 $(document).ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
+    var name = $("input#name").val();
     var userInput = parseInt($("#inputNumber").val());
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
+    var outputName = stringOutput.replace(/Dave/g, name)
     $("#result").show();
-    $("#result").text(stringOutput);
+    $("#result").text(outputName);
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+
   });
   $("form#formTwo").submit(function(event){
     event.preventDefault();
+    var name = $("input#name").val();
     var userInput = parseInt($("#inputNumber").val());
     var output = beepBoop(userInput);
     var reverseArray = output.reverse();
     var reverseOutput = reverseArray.join("");
+    var reverseOutputName = reverseOutput.replace(/Dave/g, name)
     $("#result").show();
-    $("#result").text(reverseOutput);
+    $("#result").text(reverseOutputName);
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
   });
 });
